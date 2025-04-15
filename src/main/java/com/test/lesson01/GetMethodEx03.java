@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class GetMethodEx03 extends HttpServlet {
 
 	 // 노트북에서 주석 추가
+	 // 주석 추가 다시!!!
 	
 	 @Override
 	public void doGet(HttpServletRequest request, 
