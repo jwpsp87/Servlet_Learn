@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/lesson01/ex03")
 public class GetMethodEx03 extends HttpServlet {
 
+	 // 노트북에서 주석 추가
+	
 	 @Override
 	public void doGet(HttpServletRequest request, 
 			 		  HttpServletResponse response) throws IOException {
