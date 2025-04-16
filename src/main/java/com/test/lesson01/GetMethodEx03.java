@@ -13,6 +13,7 @@ public class GetMethodEx03 extends HttpServlet {
 
 	 // 노트북에서 주석 추가
 	 // 주석 추가 다시!!!
+	 // 임시 추가 내용 
 	
 	 @Override
 	public void doGet(HttpServletRequest request, 

@@ -40,7 +40,18 @@ public class GetMethodQuiz08 extends HttpServlet {
 		 while (iter.hasNext()) {
 			 String line = iter.next();
 			 if (line.contains(keyword)) {
-				 out.print(line+ "<br>");				 
+				 // out.print(line+ "<br>");
+				 
+				 // 풀이1) indexOf
+				 
+				 // 풀이2) split
+//				 String[] text = line.split(keyword);
+//				 out.print(text[0]+ "<b>"+ keyword+ "</b>"+ text[1]+ "<br>");
+				 
+				 // 풀이3) 맛집 -> <b>맛집</b> replace
+				 out.print(line = line.replace(keyword, "<b>"+ keyword+ "</b>")+ "<br>");
+				 
+				 
 			 }
 		 }
 		 out.print("</body></html>");
